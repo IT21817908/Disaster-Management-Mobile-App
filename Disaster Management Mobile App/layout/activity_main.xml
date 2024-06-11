@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fr"
+        android:layout_width="match_parent"
+        android:layout_height="692dp"
+        android:layout_weight="1"
+
+        android:backgroundTint="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp"
+
+            android:layout_weight="1"
+            android:text="@string/btndisaster"
+            android:textColor="#0B0A0A"
+            android:textColorHint="#2D2F31"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#C98BC34A" />
+
+        <Button
+            android:id="@+id/btaid"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+
+            android:layout_marginBottom="12dp"
+            android:layout_weight="1"
+            android:text="@string/btnaid"
+            android:textAllCaps="true"
+            android:textColor="#121111"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#C68AC24A" />
+
+    </LinearLayout>
+</LinearLayout>

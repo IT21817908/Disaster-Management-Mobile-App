@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MAD3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="btndisaster">Disaster</string>
+    <string name="btnaid">Emergency</string>
+
+
+    <string name="btncall">CALL</string>
+    <string name="btnsms">SMS</string>
+    <string name="btnmap">MAP</string>
+
+    <string name="txtinfo">DISASTER INFORMATION </string>
+    <string name="btnadd">ADD</string>
+
+    <string name="tx1">To provide first aid, assess the situation for safety, call for professional help, and remain calm. Address immediate life-threatening issues, control bleeding, perform CPR if necessary, and keep the injured person comfortable until medical assistance arrives. Proper training is essential for effective first aid.</string>
+
+    <string name="tx2">Plan, prepare, and stay informed. Create an emergency kit, establish a family communication plan, and follow local authorities guidance for safety.</string>
+
+</resources>
